@@ -1,6 +1,6 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import { useState, useEffect } from 'react';
-import { debounce } from '../utils/debounce';
+import { useState, useEffect } from "react";
+import { debounce } from "utils";
+
 const MAX_STORIES = 100;
 const STORY_INCREMENT = 30;
 
@@ -33,8 +33,8 @@ export const useInfiniteScroll = () => {
   }, [loading]);
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return { count };

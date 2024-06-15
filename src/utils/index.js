@@ -1,4 +1,4 @@
-const time = timestamp => {
+export const time = (timestamp) => {
   const seconds = Math.floor((new Date() - timestamp * 1000) / 1000);
 
   let interval = Math.floor(seconds / 31536000);
@@ -29,4 +29,20 @@ const time = timestamp => {
   return `${Math.floor(seconds)} seconds`;
 };
 
-export default time
+export const debounce = (func, wait, immediate, args) => {
+  let timeout;
+
+  return () => {
+    const context = this;
+    const callNow = immediate && !timeout;
+    const later = () => {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+
+    if (callNow) func.apply(context, args);
+  };
+};
