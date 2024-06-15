@@ -1,4 +1,4 @@
-# Hacker News Infinite Scroll
+# Infinite Scroll
 
 This React application utilizes the Hacker News API to dynamically display news stories with an infinite scroll feature. It's built with React and leverages a custom infinite scroll implementation to enhance the user experience by loading content seamlessly as the user scrolls.
 
