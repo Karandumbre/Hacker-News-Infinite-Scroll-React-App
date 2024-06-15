@@ -49,3 +49,6 @@ Project Link: https://github.com/Karandumbre/Infinite-Scroll
 Karan Dumbre - Karandumbre1@gmail.com
 
 ### Demo
+
+- https://github.com/Karandumbre/Infinite-Scroll/assets/40163773/52c2022a-faad-46f4-95d1-4d362fb54191
+
