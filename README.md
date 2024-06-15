@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hacker News Infinite Scroll
 
-## Available Scripts
+This React application utilizes the Hacker News API to dynamically display news stories with an infinite scroll feature. It's built with React and leverages a custom infinite scroll implementation to enhance the user experience by loading content seamlessly as the user scrolls.
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Before you begin, ensure you have the following tools installed on your system:
 
-### `yarn test`
+- [Node.js and npm](https://nodejs.org/en/download/) (npm comes with Node.js)
+- [Yarn](https://yarnpkg.com/getting-started/install) (optional, but recommended for following these instructions)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `yarn build`
+To set up the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+   If you have git installed, you can clone the project using the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/Karandumbre/Invoice-Insurance-Popup.git
+   ```
 
-### `yarn eject`
+### Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Infinite Scrolling: Continuously loads content as the user scrolls, enhancing engagement and content discoverability.
+- Live Data: Fetches real-time stories from the Hacker News API.
+- Responsive Design: Ensures a smooth experience across various devices and screen sizes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions are welcome and greatly appreciated. If you would like to help improve the application, please follow these steps:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Fork the Project
 
-## Learn More
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Link: https://github.com/Karandumbre/Infinite-Scroll
 
-### Code Splitting
+Karan Dumbre - Karandumbre1@gmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Demo
